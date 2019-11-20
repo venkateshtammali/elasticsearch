@@ -22,8 +22,8 @@ cluster_config {
   }
 
 node_to_node_encryption {
-    enabled = var.node_to_node_encryption_enabled
-  }
+    enabled = "${var.node_to_node_encryption_enabled}"
+}
 ebs_options {
     ebs_enabled = true
     volume_type = "${var.volume_type}"
