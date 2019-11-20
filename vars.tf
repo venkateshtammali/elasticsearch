@@ -61,7 +61,7 @@ variable "volume_type" {
   type        = "string"
 }
 variable "node_to_node_encryption_enabled" {
-  type        = bool
+  type        = "string"
   default     = false
   description = "Whether to enable node-to-node encryption"
 }
